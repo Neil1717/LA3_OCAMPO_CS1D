@@ -13,10 +13,10 @@ let grade = score >= 97 ? "1.00 Excellent" : // i'll store the scores in variabl
             score >= 72 ? "4.00 Poor" : "5.00 Poor"; // in this line of code if the users input is lower than 71 it is the display 5.00 poor
 
 // this variable will store the answers for the second output
-let remarks = score >= 90 ? "HIGH PASS, Candidate for Cum Laude" : // this will be displayed when the users input is greater than 90
+let Remarks = score >= 90 ? "HIGH PASS, Candidate for Cum Laude" : // this will be displayed when the users input is greater than 90
               score >= 80 ? "AVERAGE PASS" : // this will be displayed when the user input is between 80 - 89
               score >= 75 ? "LOW PASS" : "FAILED, Needs Improvement"; // this will be displayed if the users puts a score between 75 -79, else it is gonna display you need improvement
 // the line of codes below will display the output
 console.log("Result:");
 console.log(`Your equivalent Grade is "${grade}"`);
-console.log(`Final Remarks: ${remarks}`);
+console.log(`Final Remarks: ${Remarks}`);
